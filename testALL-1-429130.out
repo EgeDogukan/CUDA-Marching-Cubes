@@ -1,0 +1,1101 @@
+main.cu(832): warning: variable "result1" was set but never used
+
+main.cu(832): warning: variable "result2" was set but never used
+
+PART 1-1 **********************************
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 12.083555 | Performance: 1.388434 mln_cubes/sec 
+CUBES PER THREAD: 16777216
+
+Part1&2
+Time taken: 
+Kernels: 85.115572 sec | Performance: 0.197111 mln_cubes/sec 
+Memcpy:  0.489293 sec 
+Extra:   0.000002 sec 
+Total:   85.604866 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 88.424931 sec | Performance: 0.189734 mln_cubes/sec 
+Memcpy:  0.489301 sec 
+Extra:   0.000000 sec 
+Total:   88.914232 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 92.079002 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 4
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.822370 | Performance: 1.419108 mln_cubes/sec 
+CUBES PER THREAD: 4194304
+
+Part1&2
+Time taken: 
+Kernels: 24.827504 sec | Performance: 0.675751 mln_cubes/sec 
+Memcpy:  0.491067 sec 
+Extra:   0.000000 sec 
+Total:   25.318571 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 23.508434 sec | Performance: 0.713668 mln_cubes/sec 
+Memcpy:  0.490141 sec 
+Extra:   0.000000 sec 
+Total:   23.998575 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 24.514758 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 16
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.637416 | Performance: 1.441662 mln_cubes/sec 
+CUBES PER THREAD: 1048576
+
+Part1&2
+Time taken: 
+Kernels: 8.210326 sec | Performance: 2.043429 mln_cubes/sec 
+Memcpy:  0.491507 sec 
+Extra:   0.000000 sec 
+Total:   8.701833 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 7.797286 sec | Performance: 2.151674 mln_cubes/sec 
+Memcpy:  0.489744 sec 
+Extra:   0.000000 sec 
+Total:   8.287029 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 8.425583 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 32
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.753151 | Performance: 1.427465 mln_cubes/sec 
+CUBES PER THREAD: 524288
+
+Part1&2
+Time taken: 
+Kernels: 5.259155 sec | Performance: 3.190097 mln_cubes/sec 
+Memcpy:  0.490450 sec 
+Extra:   0.000000 sec 
+Total:   5.749605 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 4.936320 sec | Performance: 3.398729 mln_cubes/sec 
+Memcpy:  0.490147 sec 
+Extra:   0.000000 sec 
+Total:   5.426468 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 5.512109 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 64
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.958939 | Performance: 1.402902 mln_cubes/sec 
+CUBES PER THREAD: 262144
+
+Part1&2
+Time taken: 
+Kernels: 2.986301 sec | Performance: 5.618058 mln_cubes/sec 
+Memcpy:  0.489286 sec 
+Extra:   0.000000 sec 
+Total:   3.475588 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 2.764469 sec | Performance: 6.068874 mln_cubes/sec 
+Memcpy:  0.491353 sec 
+Extra:   0.000000 sec 
+Total:   3.255823 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 3.288325 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 128
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.872939 | Performance: 1.413063 mln_cubes/sec 
+CUBES PER THREAD: 131072
+
+Part1&2
+Time taken: 
+Kernels: 2.072713 sec | Performance: 8.094326 mln_cubes/sec 
+Memcpy:  0.490713 sec 
+Extra:   0.000000 sec 
+Total:   2.563426 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.890679 sec | Performance: 8.873645 mln_cubes/sec 
+Memcpy:  0.489281 sec 
+Extra:   0.000000 sec 
+Total:   2.379960 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.390496 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 256
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.773365 | Performance: 1.425015 mln_cubes/sec 
+CUBES PER THREAD: 65536
+
+Part1&2
+Time taken: 
+Kernels: 1.260712 sec | Performance: 13.307734 mln_cubes/sec 
+Memcpy:  0.490734 sec 
+Extra:   0.000000 sec 
+Total:   1.751445 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.086605 sec | Performance: 15.440037 mln_cubes/sec 
+Memcpy:  0.490664 sec 
+Extra:   0.000000 sec 
+Total:   1.577269 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 1.581186 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 512
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.997520 | Performance: 1.398390 mln_cubes/sec 
+CUBES PER THREAD: 32768
+
+Part1&2
+Time taken: 
+Kernels: 0.869510 sec | Performance: 19.295033 mln_cubes/sec 
+Memcpy:  0.490712 sec 
+Extra:   0.000000 sec 
+Total:   1.360221 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.684670 sec | Performance: 24.504089 mln_cubes/sec 
+Memcpy:  0.490207 sec 
+Extra:   0.000000 sec 
+Total:   1.174877 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 1.177001 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.824253 | Performance: 1.418882 mln_cubes/sec 
+CUBES PER THREAD: 16384
+
+Part1&2
+Time taken: 
+Kernels: 0.586930 sec | Performance: 28.584693 mln_cubes/sec 
+Memcpy:  0.489684 sec 
+Extra:   0.000000 sec 
+Total:   1.076614 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.413591 sec | Performance: 40.564719 mln_cubes/sec 
+Memcpy:  0.489452 sec 
+Extra:   0.000000 sec 
+Total:   0.903043 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.896703 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+PART 1-2 **********************************
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 1
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.072484 | Performance: 1.043847 mln_cubes/sec 
+CUBES PER THREAD: 262144
+
+Part1&2
+Time taken: 
+Kernels: 101.883228 sec | Performance: 0.164671 mln_cubes/sec 
+Memcpy:  0.493228 sec 
+Extra:   0.000003 sec 
+Total:   102.376459 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 97.431696 sec | Performance: 0.172195 mln_cubes/sec 
+Memcpy:  0.492214 sec 
+Extra:   0.000000 sec 
+Total:   97.923911 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 100.492374 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 4
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.011001 | Performance: 1.047856 mln_cubes/sec 
+CUBES PER THREAD: 65536
+
+Part1&2
+Time taken: 
+Kernels: 35.905209 sec | Performance: 0.467264 mln_cubes/sec 
+Memcpy:  0.494444 sec 
+Extra:   0.000008 sec 
+Total:   36.399661 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 34.674879 sec | Performance: 0.483844 mln_cubes/sec 
+Memcpy:  0.489786 sec 
+Extra:   0.000000 sec 
+Total:   35.164666 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 35.875129 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 16
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.180646 | Performance: 1.036869 mln_cubes/sec 
+CUBES PER THREAD: 16384
+
+Part1&2
+Time taken: 
+Kernels: 14.633892 sec | Performance: 1.146463 mln_cubes/sec 
+Memcpy:  0.494813 sec 
+Extra:   0.000007 sec 
+Total:   15.128712 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 14.195905 sec | Performance: 1.181835 mln_cubes/sec 
+Memcpy:  0.489658 sec 
+Extra:   0.000000 sec 
+Total:   14.685562 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 14.879021 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 32
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.067341 | Performance: 1.044181 mln_cubes/sec 
+CUBES PER THREAD: 8192
+
+Part1&2
+Time taken: 
+Kernels: 8.762400 sec | Performance: 1.914683 mln_cubes/sec 
+Memcpy:  0.491747 sec 
+Extra:   0.000003 sec 
+Total:   9.254149 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 8.425705 sec | Performance: 1.991194 mln_cubes/sec 
+Memcpy:  0.489997 sec 
+Extra:   0.000000 sec 
+Total:   8.915702 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 9.026260 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 64
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.116921 | Performance: 1.040969 mln_cubes/sec 
+CUBES PER THREAD: 4096
+
+Part1&2
+Time taken: 
+Kernels: 4.055017 sec | Performance: 4.137397 mln_cubes/sec 
+Memcpy:  0.492133 sec 
+Extra:   0.000003 sec 
+Total:   4.547153 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 3.820503 sec | Performance: 4.391363 mln_cubes/sec 
+Memcpy:  0.490215 sec 
+Extra:   0.000000 sec 
+Total:   4.310718 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 4.379654 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 128
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.227879 | Performance: 1.033851 mln_cubes/sec 
+CUBES PER THREAD: 2048
+
+Part1&2
+Time taken: 
+Kernels: 3.045197 sec | Performance: 5.509403 mln_cubes/sec 
+Memcpy:  0.493211 sec 
+Extra:   0.000003 sec 
+Total:   3.538411 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 2.829826 sec | Performance: 5.928709 mln_cubes/sec 
+Memcpy:  0.493006 sec 
+Extra:   0.000000 sec 
+Total:   3.322833 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 3.374520 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 256
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 16.184421 | Performance: 1.036627 mln_cubes/sec 
+CUBES PER THREAD: 1024
+
+Part1&2
+Time taken: 
+Kernels: 1.870548 sec | Performance: 8.969144 mln_cubes/sec 
+Memcpy:  0.492487 sec 
+Extra:   0.000003 sec 
+Total:   2.363038 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.687251 sec | Performance: 9.943519 mln_cubes/sec 
+Memcpy:  0.489287 sec 
+Extra:   0.000000 sec 
+Total:   2.176539 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.217615 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 512
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 15.999404 | Performance: 1.048615 mln_cubes/sec 
+CUBES PER THREAD: 512
+
+Part1&2
+Time taken: 
+Kernels: 1.089297 sec | Performance: 15.401880 mln_cubes/sec 
+Memcpy:  0.493545 sec 
+Extra:   0.000003 sec 
+Total:   1.582845 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.915071 sec | Performance: 18.334324 mln_cubes/sec 
+Memcpy:  0.489286 sec 
+Extra:   0.000000 sec 
+Total:   1.404357 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 1.447423 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+resolution (n) = 64, number of frames (f) = 64
+blocks (b) = 1, threads (t) = 1024
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 15.934806 | Performance: 1.052866 mln_cubes/sec 
+CUBES PER THREAD: 256
+
+Part1&2
+Time taken: 
+Kernels: 0.722247 sec | Performance: 23.229202 mln_cubes/sec 
+Memcpy:  0.491819 sec 
+Extra:   0.000003 sec 
+Total:   1.214068 sec
+GPU memory usage: used = 229.000000, free = 14701.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.584552 sec | Performance: 28.700969 mln_cubes/sec 
+Memcpy:  0.490589 sec 
+Extra:   0.000000 sec 
+Total:   1.075141 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 1.109345 sec
+GPU memory usage: used = 325.000000, free = 14605.562500 MB, total = 14930.562500 MB
+PART 1-3 **********************************
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 1
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.348463 | Performance: 0.552819 mln_cubes/sec 
+CUBES PER THREAD: 512
+
+Part1&2
+Time taken: 
+Kernels: 176.082638 sec | Performance: 0.095280 mln_cubes/sec 
+Memcpy:  1.075324 sec 
+Extra:   0.001478 sec 
+Total:   177.159440 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 171.920542 sec | Performance: 0.097587 mln_cubes/sec 
+Memcpy:  0.491206 sec 
+Extra:   0.000082 sec 
+Total:   172.411830 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 174.911197 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 4
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.848104 | Performance: 0.543865 mln_cubes/sec 
+CUBES PER THREAD: 128
+
+Part1&2
+Time taken: 
+Kernels: 84.055122 sec | Performance: 0.199598 mln_cubes/sec 
+Memcpy:  1.068313 sec 
+Extra:   0.001496 sec 
+Total:   85.124932 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 82.464665 sec | Performance: 0.203447 mln_cubes/sec 
+Memcpy:  0.492494 sec 
+Extra:   0.000075 sec 
+Total:   82.957234 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 84.030807 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 16
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.446194 | Performance: 0.551045 mln_cubes/sec 
+CUBES PER THREAD: 32
+
+Part1&2
+Time taken: 
+Kernels: 29.392727 sec | Performance: 0.570795 mln_cubes/sec 
+Memcpy:  1.058721 sec 
+Extra:   0.001305 sec 
+Total:   30.452752 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 28.559844 sec | Performance: 0.587441 mln_cubes/sec 
+Memcpy:  0.490359 sec 
+Extra:   0.000076 sec 
+Total:   29.050279 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 29.693494 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 32
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.248250 | Performance: 0.554651 mln_cubes/sec 
+CUBES PER THREAD: 16
+
+Part1&2
+Time taken: 
+Kernels: 16.751588 sec | Performance: 1.001530 mln_cubes/sec 
+Memcpy:  1.053135 sec 
+Extra:   0.001470 sec 
+Total:   17.806194 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 16.076104 sec | Performance: 1.043612 mln_cubes/sec 
+Memcpy:  0.489097 sec 
+Extra:   0.000080 sec 
+Total:   16.565281 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 17.174852 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 64
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.218005 | Performance: 0.555206 mln_cubes/sec 
+CUBES PER THREAD: 8
+
+Part1&2
+Time taken: 
+Kernels: 8.531772 sec | Performance: 1.966440 mln_cubes/sec 
+Memcpy:  1.054284 sec 
+Extra:   0.001463 sec 
+Total:   9.587519 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 7.978085 sec | Performance: 2.102913 mln_cubes/sec 
+Memcpy:  0.489262 sec 
+Extra:   0.000075 sec 
+Total:   8.467423 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 9.078581 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 128
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.668283 | Performance: 0.547054 mln_cubes/sec 
+CUBES PER THREAD: 4
+
+Part1&2
+Time taken: 
+Kernels: 6.257119 sec | Performance: 2.681300 mln_cubes/sec 
+Memcpy:  1.051246 sec 
+Extra:   0.001676 sec 
+Total:   7.310041 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 5.875817 sec | Performance: 2.855299 mln_cubes/sec 
+Memcpy:  0.489741 sec 
+Extra:   0.000091 sec 
+Total:   6.365649 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 6.822156 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 256
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.298155 | Performance: 0.553737 mln_cubes/sec 
+CUBES PER THREAD: 2
+
+Part1&2
+Time taken: 
+Kernels: 3.569126 sec | Performance: 4.700651 mln_cubes/sec 
+Memcpy:  1.051045 sec 
+Extra:   0.001464 sec 
+Total:   4.621635 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 3.202713 sec | Performance: 5.238440 mln_cubes/sec 
+Memcpy:  0.490469 sec 
+Extra:   0.000076 sec 
+Total:   3.693257 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 4.151246 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 512
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.221622 | Performance: 0.555140 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.067913 sec | Performance: 8.113115 mln_cubes/sec 
+Memcpy:  1.059384 sec 
+Extra:   0.001517 sec 
+Total:   3.128813 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.759765 sec | Performance: 9.533783 mln_cubes/sec 
+Memcpy:  0.490513 sec 
+Extra:   0.000075 sec 
+Total:   2.250353 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.697926 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.870885 | Performance: 0.543464 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.098062 sec | Performance: 7.996531 mln_cubes/sec 
+Memcpy:  1.050473 sec 
+Extra:   0.001444 sec 
+Total:   3.149979 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.766930 sec | Performance: 9.495121 mln_cubes/sec 
+Memcpy:  0.489782 sec 
+Extra:   0.000075 sec 
+Total:   2.256787 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.701592 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+PART 2-1 **********************************
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 1, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.855979 | Performance: 1.415085 mln_cubes/sec 
+CUBES PER THREAD: 16384
+
+Part1&2
+Time taken: 
+Kernels: 0.585985 sec | Performance: 28.630812 mln_cubes/sec 
+Memcpy:  0.491403 sec 
+Extra:   0.000000 sec 
+Total:   1.077388 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.407891 sec | Performance: 41.131639 mln_cubes/sec 
+Memcpy:  0.489257 sec 
+Extra:   0.000000 sec 
+Total:   0.897148 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.901450 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 10, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.765245 | Performance: 1.425998 mln_cubes/sec 
+CUBES PER THREAD: 1639
+
+Part1&2
+Time taken: 
+Kernels: 0.233755 sec | Performance: 71.772617 mln_cubes/sec 
+Memcpy:  0.492462 sec 
+Extra:   0.000000 sec 
+Total:   0.726217 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.077007 sec | Performance: 217.866775 mln_cubes/sec 
+Memcpy:  0.491664 sec 
+Extra:   0.000000 sec 
+Total:   0.568671 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.565170 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 20, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.770543 | Performance: 1.425356 mln_cubes/sec 
+CUBES PER THREAD: 820
+
+Part1&2
+Time taken: 
+Kernels: 0.137616 sec | Performance: 121.913438 mln_cubes/sec 
+Memcpy:  0.492675 sec 
+Extra:   0.000000 sec 
+Total:   0.630291 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.041235 sec | Performance: 406.865597 mln_cubes/sec 
+Memcpy:  0.491718 sec 
+Extra:   0.000000 sec 
+Total:   0.532954 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.529538 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 40, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.877869 | Performance: 1.412477 mln_cubes/sec 
+CUBES PER THREAD: 410
+
+Part1&2
+Time taken: 
+Kernels: 0.091266 sec | Performance: 183.828041 mln_cubes/sec 
+Memcpy:  0.490697 sec 
+Extra:   0.000000 sec 
+Total:   0.581963 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.030135 sec | Performance: 556.741617 mln_cubes/sec 
+Memcpy:  0.489933 sec 
+Extra:   0.000000 sec 
+Total:   0.520068 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.517479 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 80, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 11.911538 | Performance: 1.408484 mln_cubes/sec 
+CUBES PER THREAD: 205
+
+Part1&2
+Time taken: 
+Kernels: 0.066891 sec | Performance: 250.812540 mln_cubes/sec 
+Memcpy:  0.492318 sec 
+Extra:   0.000000 sec 
+Total:   0.559210 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.021676 sec | Performance: 774.011058 mln_cubes/sec 
+Memcpy:  0.491010 sec 
+Extra:   0.000000 sec 
+Total:   0.512686 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.510390 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+resolution (n) = 256, number of frames (f) = 1
+blocks (b) = 160, threads (t) = 1024
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 12.025935 | Performance: 1.395086 mln_cubes/sec 
+CUBES PER THREAD: 103
+
+Part1&2
+Time taken: 
+Kernels: 0.054440 sec | Performance: 308.179587 mln_cubes/sec 
+Memcpy:  0.490522 sec 
+Extra:   0.000000 sec 
+Total:   0.544962 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 0.015676 sec | Performance: 1070.268401 mln_cubes/sec 
+Memcpy:  0.490764 sec 
+Extra:   0.000000 sec 
+Total:   0.506440 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 0.503088 sec
+GPU memory usage: used = 12421.000000, free = 2509.562500 MB, total = 14930.562500 MB
+PART 2-2 **********************************
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 1, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.928325 | Performance: 0.542455 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.105693 sec | Performance: 7.967551 mln_cubes/sec 
+Memcpy:  1.051753 sec 
+Extra:   0.001494 sec 
+Total:   3.158940 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.773699 sec | Performance: 9.458885 mln_cubes/sec 
+Memcpy:  0.489305 sec 
+Extra:   0.000078 sec 
+Total:   2.263082 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.702349 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 10, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.411295 | Performance: 0.551677 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.104665 sec | Performance: 7.971442 mln_cubes/sec 
+Memcpy:  1.048954 sec 
+Extra:   0.001433 sec 
+Total:   3.155052 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.774637 sec | Performance: 9.453886 mln_cubes/sec 
+Memcpy:  0.489281 sec 
+Extra:   0.000079 sec 
+Total:   2.263997 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.699416 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 20, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.386897 | Performance: 0.552120 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.086020 sec | Performance: 8.042692 mln_cubes/sec 
+Memcpy:  1.043733 sec 
+Extra:   0.001470 sec 
+Total:   3.131223 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.768848 sec | Performance: 9.484824 mln_cubes/sec 
+Memcpy:  0.491497 sec 
+Extra:   0.000075 sec 
+Total:   2.260421 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.705478 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 40, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.560755 | Performance: 0.548979 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.095019 sec | Performance: 8.008145 mln_cubes/sec 
+Memcpy:  1.047434 sec 
+Extra:   0.001509 sec 
+Total:   3.143961 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.756855 sec | Performance: 9.549575 mln_cubes/sec 
+Memcpy:  0.489293 sec 
+Extra:   0.000075 sec 
+Total:   2.246223 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.699914 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 80, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.649409 | Performance: 0.547391 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.104972 sec | Performance: 7.970278 mln_cubes/sec 
+Memcpy:  1.061909 sec 
+Extra:   0.001521 sec 
+Total:   3.168402 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.758606 sec | Performance: 9.540064 mln_cubes/sec 
+Memcpy:  0.492024 sec 
+Extra:   0.000071 sec 
+Total:   2.250701 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.710569 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+resolution (n) = 8, number of frames (f) = 32768
+blocks (b) = 160, threads (t) = 1024
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+CPU
+Time taken: 30.591826 | Performance: 0.548422 mln_cubes/sec 
+CUBES PER THREAD: 1
+
+Part1&2
+Time taken: 
+Kernels: 2.091676 sec | Performance: 8.020943 mln_cubes/sec 
+Memcpy:  1.069319 sec 
+Extra:   0.001517 sec 
+Total:   3.162512 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
+
+Part3
+Time taken: 
+Kernels: 1.775239 sec | Performance: 9.450680 mln_cubes/sec 
+Memcpy:  0.492695 sec 
+Extra:   0.000092 sec 
+Total:   2.268026 sec
+GPU memory usage: used = 6277.000000, free = 8653.562500 MB, total = 14930.562500 MB
+
+Part4
+Time taken: 
+Total: 2.703853 sec
+GPU memory usage: used = 133.000000, free = 14797.562500 MB, total = 14930.562500 MB
